@@ -84,6 +84,22 @@ def rsaFindDfromPQ(p, q, e):  # {{{
 
 
 # }}}
+
+
+def rsaCipherMessage(m, e, n):  # {{{
+    c = pow(int(m), int(e), int(n))
+    return c
+
+
+# }}}
+
+
+def rsaUncipherMessage(c, d, n):  # {{{
+    m = pow(int(c), int(d), int(n))
+    return m
+
+
+# }}}
 if __name__ == "__main__":
     pwn.warn("Ceci est à utiliser en tant que module")
 else:
