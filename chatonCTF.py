@@ -69,7 +69,7 @@ def rsaFindPhi(p, q):  # {{{
 # }}}
 
 
-def rsaFindD(phi, e):  # {{{
+def rsaFindDfromPhi(phi, e):  # {{{
     d = pow(int(e), -1, int(phi))
     return d
 
@@ -77,6 +77,13 @@ def rsaFindD(phi, e):  # {{{
 # }}}
 
 
+def rsaFindDfromPQ(p, q, e):  # {{{
+    phi = rsaFindPhi(int(p), int(q))
+    d = pow(int(e), -1, phi)
+    return d
+
+
+# }}}
 if __name__ == "__main__":
     pwn.warn("Ceci est à utiliser en tant que module")
 else:
