@@ -37,6 +37,7 @@ Le chaton peut vous aider avec les challenges RSA en calculant les données suiv
 - Calculer **P** ou **Q** si vous avez **N** et un membre du binôme à trouver
 - Calculer **Phi(n)** si vous lui fournissez **P** et **Q**
 - Calculer **D** Si vous avez **Phi(n)** et **E**
+- Trouver les messages Chiffrés/Déchiffrés
 
 ## Outro
 
