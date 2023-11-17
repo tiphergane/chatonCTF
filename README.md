@@ -39,6 +39,11 @@ Le chaton peut vous aider avec les challenges RSA en calculant les données suiv
 - Calculer **D** Si vous avez **Phi(n)** et **E**
 - Trouver les messages Chiffrés/Déchiffrés
 
+### Integer to ASCII
+
+Le chaton peut convertir une chaine Bignum vers sa représentation ASCII
+![INTtoASCII](./IMG/INTtoASCII.png)
+
 ## Outro
 
 ChatonCTF est modulaire, et sera mis à jour au fur et à mesure que j'apprendrai de nouvelles techniques
