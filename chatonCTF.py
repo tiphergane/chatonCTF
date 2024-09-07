@@ -100,5 +100,12 @@ def rsaUncipherMessage(c, d, n):  # {{{
     # }}}
 
 
+def rsaSignMessage(m, d, n):  # {{{
+    """Compute signature from message, D and N"""
+    s = pow(int(m), int(d), int(n))
+    return s
+    # }}}
+
+
 if __name__ == "__main__":
     pwn.warn("Ceci est à utiliser en tant que module")
