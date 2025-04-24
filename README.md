@@ -45,6 +45,9 @@ Le chaton peut vous aider avec les challenges RSA en calculant les données suiv
 Le chaton peut convertir une chaine Bignum vers sa représentation ASCII
 ![INTtoASCII](./IMG/INTtoASCII.png)
 
+### Reverse String
+Le chaton peut inverser l'ordre des lettres quand il le faut
+
 ## Outro
 
 ChatonCTF est modulaire, et sera mis à jour au fur et à mesure que j'apprendrai de nouvelles techniques
