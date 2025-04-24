@@ -7,7 +7,7 @@ import binwalk
 from gmpy2 import iroot
 
 def rsaSmalle(c,e,n):
-    """recover ciphered message from small e exponant"""
+    """recover ciphered message from small e exponent"""
     m = iroot(c,e)
     if (m[0]**e) % n == c:
         m = INTtoASCII(str(m[0]))
