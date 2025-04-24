@@ -4,7 +4,16 @@
 import re
 import pwn
 import binwalk
+from gmpy2 import iroot
 
+def rsaSmalle(c,e,n):
+    """recover ciphered message from small e exponant"""
+    m = iroot(c,e)
+    if (m[0]**e) % n == c:
+        m = INTtoASCII(str(m[0]))
+        return m
+    else:
+        return None
 
 def INTtoASCII(string):
     """Convert an Integer to hex string then his ASCII representation"""
