@@ -1,3 +1,4 @@
 pwntools
 regex
 binwalk
+gmpy2
