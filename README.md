@@ -38,6 +38,7 @@ Le chaton peut vous aider avec les challenges RSA en calculant les données suiv
 - Calculer **Phi(n)** si vous lui fournissez **P** et **Q**
 - Calculer **D** Si vous avez **Phi(n)** et **E**
 - Trouver les messages Chiffrés/Déchiffrés
+- Exploiter faiblesse si **E=3** 
 
 ### Integer to ASCII
 
